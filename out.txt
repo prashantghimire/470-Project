@@ -1,20 +1,6 @@
 CLUSTER 1 
-	 ['Tyler Thomas', 'Two9 Jace', 'Two9 Jace', 'Twin River', 'Turnstile', 'Turnover', 'Truett', 'Trub', 'Tripletrain', 'traumahelikopter', 'Trapper Schoepp', 'Transviolet', 'Transviolet', 'TOWKIO', 'Typical Girls', 'Troller', 'Trae Tha Truth'] 
+	 ['G', 'H', 'I'] 
 CLUSTER 2 
-	 ['TK N CASH', 'Tory Lanez', 'Tommy Genesis', 'Tomad', 'TK N CASH', 'Two9 Jace', 'Trevor Sensor', 'Tracy Bryant', 'Total Abuse', 'Tomar and the FCs', 'Tres Bourbonnais', 'Trae Tha Truth', 'Tum Tum', 'Trinity Dawson'] 
+	 ['A', 'B', 'C', 'J', 'K'] 
 CLUSTER 3 
-	 ['Tim Olstad', 'Tiga', 'Tiffany Parker', 'Tesha', 'The Trews', 'Tel Cairo', 'Taylor Bennett', 'Tijuana Panthers', 'Tijuana Panthers', 'Throwing Shade', 'Thought Tempo', 'THEY.', 'THEY.', 'Terra Lightfoot', 'Tennis System', 'TEEN', 'Tdot Illdude', 'The Tontons', 'Team Next'] 
-CLUSTER 4 
-	 ['Taco', 'Tanlines', 'Tacocat', 'Talisco', 'Tanya Stephens', 'A Tibbz', 'Tameca Jones', 'Tamarron'] 
-CLUSTER 5 
-	 ['Tunji Ige', 'Transviolet', 'TOTEM', 'Tunji Ige', 'toyGuitar', 'Travis Garland', 'Trance Farmers', 'Tuskha', 'Trevor Jackson', 'Tru Def', 'Trill Sammy'] 
-CLUSTER 6 
-	 ['Telegram', 'Teddy Thompson and Kelly Jones', 'TastyTreat', 'Taso', 'Tides of Man', 'Thaddeus Anna Greene', 'Texiyama', 'Tim Nable', 'Thelma and The Sleaze', 'tdoyle', 'Tha Real Chino', 'Tele Novella', 'Team Next'] 
-CLUSTER 7 
-	 ['Tangerine', 'Talisco', 'T.S.O.', 'Tiffany Alvord', 'The Todd Barry Podcast (Podcast Recording)', 'Thao & The Get Down Stay Down', 'Telmary', 'Tate Kobang', 'Tijuana Panthers', 'Tigertown', 'Tigers Are Bad For Horses', "Thi'sl", 'Them Vibes', 'Them Guns', 'Thelma and The Sleaze', 'Tempo Plastico', 'Tempalay', 'Tekno', 'Teklife & The Era', 'Tdot Illdude', 'T-Bone', 'Taylor McFerrin', 'Taylor Bennett', '"T2 ""The Ghetto Hippie"""', 'Tank Washington'] 
-CLUSTER 8 
-	 ['TK N CASH', 'Tory Lanez', 'Tory Lanez', 'Tor Miller', 'Tor Miller', 'Tony Tillman', 'Tish Hyman', 'Tish Hyman', 'Tina B', 'Tony Ramey', 'Tinnarose', 'Total Unicorn'] 
-CLUSTER 9 
-	 ['Troye Sivan', 'Twista', 'Twin Limb', 'Truth', 'Troye Sivan', 'Trash', 'Transviolet', 'Tracy Bryant', 'Tree G', 'Trill Sammy & Dice Soho', 'Trill Sammy', 'Trae Tha Truth aka The Texas Ambassador', 'Trae Tha Truth'] 
-CLUSTER 10 
-	 ['Tan Fr�o El Verano', 'Th3 Saga', 'TEEN', 'Tef Poe', 'Tarmac', 'Tickle Torture', 'THEY.', 'Thee Oh Sees', 'Think No Think'] 
+	 ['D', 'E', 'F'] 

@@ -1,4 +1,3 @@
-#   yash malla - python 3.5.1
 #!/usr/bin/python
 import random
 import math
@@ -45,7 +44,7 @@ centroids = {}
 exampleList, nameOfExample = [], []
 count, numOfAttributes, numOfClusters, numOfExamples = 0, 0, 0, 0
 # Reading the file
-with open('bands.csv') as file:
+with open('test.txt') as file:
     for eachLine in file:
         eachLine = eachLine.strip()
         if count == 0:
@@ -106,6 +105,7 @@ while iterator <= math.pow(numOfExamples, 2):
     if checkCluster == clusters:
         break
     checkCluster = clusters
+    print(centroids)
     initialDistance = distanceList(exampleList, centroids)
 printClusters(checkCluster)
 
