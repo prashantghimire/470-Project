@@ -44,7 +44,7 @@ centroids = {}
 exampleList, nameOfExample = [], []
 count, numOfAttributes, numOfClusters, numOfExamples = 0, 0, 0, 0
 # Reading the file
-with open('test.txt') as file:
+with open('bands.csv') as file:
     for eachLine in file:
         eachLine = eachLine.strip()
         if count == 0:
@@ -72,6 +72,7 @@ checkCluster = {}
 keeperX = 0
 keeperY = 0
 anotherCluster = {}
+final_centroids = {}
 
 while iterator <= math.pow(numOfExamples, 2):
     clusters = {}
@@ -105,7 +106,8 @@ while iterator <= math.pow(numOfExamples, 2):
     if checkCluster == clusters:
         break
     checkCluster = clusters
-    print(centroids)
+    final_centroids = centroids
     initialDistance = distanceList(exampleList, centroids)
 printClusters(checkCluster)
 
+print(final_centroids)
