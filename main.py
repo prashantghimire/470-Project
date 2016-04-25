@@ -35,6 +35,7 @@ def distanceList(exampleList = None, centroids = None):
 
 
 def printClusters(clusters =None):
+
     with open('out.txt', 'w') as file:
         for eachCluster in clusters:
             file.write('CLUSTER %s \n' % (eachCluster + 1))
@@ -73,6 +74,7 @@ keeperX = 0
 keeperY = 0
 anotherCluster = {}
 final_centroids = {}
+cluster_items = []
 
 while iterator <= math.pow(numOfExamples, 2):
     clusters = {}
@@ -97,6 +99,7 @@ while iterator <= math.pow(numOfExamples, 2):
 
     for eachCluster in anotherCluster:
         temp = anotherCluster[eachCluster]
+        cluster_items.append(temp)
         tempList = temp[0]
         for x in range(1, len(temp)):
             tempList = [float(x) + float(y) for x, y in zip(temp[x], tempList)]
@@ -110,4 +113,10 @@ while iterator <= math.pow(numOfExamples, 2):
     initialDistance = distanceList(exampleList, centroids)
 printClusters(checkCluster)
 
-print(final_centroids)
+print(checkCluster[3][4]) # band name cluster
+
+print(cluster_items[3][4]) # coordinates value cluster
+
+
+
+# print(final_centroids)
