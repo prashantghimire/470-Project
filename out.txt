@@ -1,20 +1,20 @@
 CLUSTER 1 
-	 ['Tish Hyman', 'Tinnarose', 'Total Unicorn'] 
+	 ['Tiffany Alvord', 'The Todd Barry Podcast (Podcast Recording)', 'Thao & The Get Down Stay Down', 'Telmary', 'Tate Kobang', 'Tijuana Panthers', 'Tigertown', 'Tigers Are Bad For Horses', "Thi'sl", 'Them Vibes', 'Them Guns', 'Thelma and The Sleaze', 'Tempo Plastico', 'Tempalay', 'Tekno', 'Teklife & The Era', 'Tdot Illdude', 'T-Bone', 'Taylor McFerrin', 'Taylor Bennett'] 
 CLUSTER 2 
 	 ['Th3 Saga', 'TEEN', 'Tef Poe', 'Tarmac', 'Tickle Torture', 'THEY.', 'Thee Oh Sees', 'Think No Think'] 
 CLUSTER 3 
-	 ['Tiffany Alvord', 'The Todd Barry Podcast (Podcast Recording)', 'Thao & The Get Down Stay Down', 'Telmary', 'Tate Kobang'] 
+	 ['Tunji Ige', 'Transviolet', 'TOTEM', 'Tunji Ige', 'Tyler Thomas', 'Two9 Jace', 'Two9 Jace', 'Twin River', 'Turnstile', 'Turnover', 'Truett', 'Trub', 'Tripletrain', 'traumahelikopter', 'Trapper Schoepp', 'Transviolet', 'Transviolet', 'TOWKIO', 'toyGuitar', 'Travis Garland', 'Trance Farmers', 'Tuskha', 'Trevor Jackson', 'Tru Def', 'Typical Girls', 'Troller', 'Trae Tha Truth', 'Trill Sammy'] 
 CLUSTER 4 
-	 ['TK N CASH', 'Tory Lanez', 'Tory Lanez', 'Tor Miller', 'Tor Miller', 'Tony Tillman', 'Tish Hyman', 'Tina B', 'Tony Ramey'] 
+	 ['TK N CASH', 'Tory Lanez', 'Tory Lanez', 'Tor Miller', 'Tor Miller', 'Tony Tillman', 'Tish Hyman', 'Tish Hyman', 'Tina B', 'Tony Ramey', 'Tinnarose', 'Total Unicorn'] 
 CLUSTER 5 
-	 ['Tyler Thomas', 'Two9 Jace', 'Two9 Jace', 'Twin River', 'Turnstile', 'Turnover', 'Truett', 'Trub', 'Tripletrain', 'traumahelikopter', 'Trapper Schoepp', 'Transviolet', 'Transviolet', 'TOWKIO', 'Typical Girls', 'Troller', 'Trae Tha Truth'] 
+	 ['Tan Fr�o El Verano', 'Tangerine', 'Talisco', 'T.S.O.', 'T2 The Ghetto Hippie', 'Tank Washington'] 
 CLUSTER 6 
-	 ['Telegram', 'Teddy Thompson and Kelly Jones', 'TastyTreat', 'Taso', 'Tides of Man', 'Thaddeus Anna Greene', 'Texiyama', 'Tim Olstad', 'Tiga', 'Tiffany Parker', 'Tesha', 'Tim Nable', 'The Trews', 'Tel Cairo', 'Taylor Bennett', 'Thelma and The Sleaze', 'tdoyle', 'Tijuana Panthers', 'Tijuana Panthers', 'Throwing Shade', 'Thought Tempo', 'THEY.', 'THEY.', 'Terra Lightfoot', 'Tennis System', 'TEEN', 'Tdot Illdude', 'Tha Real Chino', 'Tele Novella', 'The Tontons', 'Team Next', 'Team Next'] 
+	 ['Taco', 'Tanlines', 'Tacocat', 'Talisco', 'Tanya Stephens', 'A Tibbz', 'Tameca Jones', 'Tamarron'] 
 CLUSTER 7 
-	 ['Tunji Ige', 'Transviolet', 'TOTEM', 'Tunji Ige', 'toyGuitar', 'Travis Garland', 'Trance Farmers', 'Tuskha', 'Trevor Jackson', 'Tru Def', 'Trill Sammy'] 
+	 ['TK N CASH', 'Tory Lanez', 'Tommy Genesis', 'Tomad', 'TK N CASH', 'Two9 Jace', 'Trevor Sensor', 'Tracy Bryant', 'Total Abuse', 'Tomar and the FCs', 'Tres Bourbonnais', 'Trae Tha Truth', 'Tum Tum', 'Trinity Dawson'] 
 CLUSTER 8 
-	 ['Tijuana Panthers', 'Tigertown', 'Tigers Are Bad For Horses', "Thi'sl", 'Them Vibes', 'Them Guns', 'Thelma and The Sleaze', 'Tempo Plastico', 'Tempalay', 'Tekno', 'Teklife & The Era', 'Tdot Illdude', 'T-Bone', 'Taylor McFerrin', 'Taylor Bennett'] 
+	 ['Telegram', 'Teddy Thompson and Kelly Jones', 'TastyTreat', 'Taso', 'Tides of Man', 'Thaddeus Anna Greene', 'Texiyama', 'Tim Nable', 'Thelma and The Sleaze', 'tdoyle', 'Tha Real Chino', 'Tele Novella', 'Team Next'] 
 CLUSTER 9 
-	 ['TK N CASH', 'Tory Lanez', 'Tommy Genesis', 'Tomad', 'TK N CASH', 'Troye Sivan', 'Twista', 'Twin Limb', 'Truth', 'Troye Sivan', 'Trash', 'Transviolet', 'Tracy Bryant', 'Two9 Jace', 'Trevor Sensor', 'Tracy Bryant', 'Total Abuse', 'Tomar and the FCs', 'Tree G', 'Trill Sammy & Dice Soho', 'Trill Sammy', 'Trae Tha Truth aka The Texas Ambassador', 'Trae Tha Truth', 'Tres Bourbonnais', 'Trae Tha Truth', 'Tum Tum', 'Trinity Dawson'] 
+	 ['Troye Sivan', 'Twista', 'Twin Limb', 'Truth', 'Troye Sivan', 'Trash', 'Transviolet', 'Tracy Bryant', 'Tree G', 'Trill Sammy & Dice Soho', 'Trill Sammy', 'Trae Tha Truth aka The Texas Ambassador', 'Trae Tha Truth'] 
 CLUSTER 10 
-	 ['Tan Fr�o El Verano', 'Tangerine', 'Talisco', 'T.S.O.', 'Taco', 'Tanlines', 'Tacocat', 'Talisco', 'Tanya Stephens', 'A Tibbz', 'T2 The Ghetto Hippie', 'Tank Washington', 'Tameca Jones', 'Tamarron'] 
+	 ['Tim Olstad', 'Tiga', 'Tiffany Parker', 'Tesha', 'The Trews', 'Tel Cairo', 'Taylor Bennett', 'Tijuana Panthers', 'Tijuana Panthers', 'Throwing Shade', 'Thought Tempo', 'THEY.', 'THEY.', 'Terra Lightfoot', 'Tennis System', 'TEEN', 'Tdot Illdude', 'The Tontons', 'Team Next'] 

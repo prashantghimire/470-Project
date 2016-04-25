@@ -17,6 +17,11 @@ def distanceCalculator(eachExample =None, centroids =None):
 
 # A method that makes a distance matrix of two collection (exampleList & centroids) using distanceCalculator()
 
+def distanceBetween(coordinate, centroid):
+    a = 0
+    for x in range(0, len(coordinate)):
+        a += math.pow(coordinate[x] - centroid[x] ,2)
+    return math.sqrt(a)
 
 def distanceList(exampleList = None, centroids = None):
     initialDistance = []
@@ -74,7 +79,7 @@ keeperX = 0
 keeperY = 0
 anotherCluster = {}
 final_centroids = {}
-cluster_items = []
+cluster_items = {}
 
 while iterator <= math.pow(numOfExamples, 2):
     clusters = {}
@@ -97,9 +102,11 @@ while iterator <= math.pow(numOfExamples, 2):
             anotherCluster[keeperY].append(exampleList[keeperX])
             clusters[keeperY].append(nameOfExample[keeperX])
 
+    m = 0;
     for eachCluster in anotherCluster:
         temp = anotherCluster[eachCluster]
-        cluster_items.append(temp)
+        cluster_items[m] = temp
+        m += 1
         tempList = temp[0]
         for x in range(1, len(temp)):
             tempList = [float(x) + float(y) for x, y in zip(temp[x], tempList)]
@@ -113,10 +120,25 @@ while iterator <= math.pow(numOfExamples, 2):
     initialDistance = distanceList(exampleList, centroids)
 printClusters(checkCluster)
 
-print(checkCluster[3][4]) # band name cluster
+# print(checkCluster[3][4]) # band name cluster
 
-print(cluster_items[3][4]) # coordinates value cluster
+# print(cluster_items) # coordinates value cluster
 
 
+float_cluster = []
+# print(checkCluster)
+# print(len(checkCluster))
+# print(cluster_items)
+# print(len(cluster_items))
 
-# print(final_centroids)
+
+for i in range(0, len(cluster_items)):
+    item = (cluster_items.get(i))
+    for j in range(0, len(item)):
+        temp = []
+        for k in range (0, len(item[j])):
+            val = float(item[j][k])
+            temp.append(val)
+        # print(temp)
+        print(distanceBetween(temp, final_centroids[i]))
+    print("\n")
