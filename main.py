@@ -21,7 +21,7 @@ def distanceBetween(coordinate, centroid):
     a = 0
     for x in range(0, len(coordinate)):
         a += math.pow(coordinate[x] - centroid[x] ,2)
-    return math.sqrt(a)
+    return round(math.sqrt(a),2)
 
 def distanceList(exampleList = None, centroids = None):
     initialDistance = []
@@ -136,19 +136,28 @@ distance = {}
 
 m = 0
 
+sorted_distance = {}
 for i in range(0, len(cluster_items)):
     item = (cluster_items.get(i))
     distance[i] = []
     for j in range(0, len(item)):
         temp = []
         for k in range (0, len(item[j])):
-            val = float(item[j][k])
+            val = round(float(item[j][k]),2)
             temp.append(val)
         distance[i].append(distanceBetween(temp, final_centroids[i]))
 
+
+
+
+#unsorted
+
+
+
+#sorted
 for i in range(0, len(distance)):
-    min = 99999;
-    for j in range(0, len(distance[i])):
-        if distance[i][j] < min:
-            min = distance[i][j]
-    print(min)
+    val = distance[i]
+    sorted_distance[i] = sorted(range(len(val)), key=lambda k: val[k])
+    print(sorted_distance[i]) # index of sorted
+
+
