@@ -132,13 +132,23 @@ float_cluster = []
 # print(len(cluster_items))
 
 
+distance = {}
+
+m = 0
+
 for i in range(0, len(cluster_items)):
     item = (cluster_items.get(i))
+    distance[i] = []
     for j in range(0, len(item)):
         temp = []
         for k in range (0, len(item[j])):
             val = float(item[j][k])
             temp.append(val)
-        # print(temp)
-        print(distanceBetween(temp, final_centroids[i]))
-    print("\n")
+        distance[i].append(distanceBetween(temp, final_centroids[i]))
+
+for i in range(0, len(distance)):
+    min = 99999;
+    for j in range(0, len(distance[i])):
+        if distance[i][j] < min:
+            min = distance[i][j]
+    print(min)
