@@ -2,21 +2,22 @@
 <html>
 <head>
 	<title><%= title %></title>
+	<meta name="viewport" content="width=device-width">
 	<link rel='stylesheet' href='/stylesheets/style.css' />
 	<link rel='stylesheet' href='/stylesheets/bootstrap.min.css' />
 
-</head>
-<body>
-	<h1><%= title %></h1>
-	<p>Welcome to <%= title %></p>
-
-
-
 	<script type="text/javascript" src="/javascripts/angular.min.js"></script>
+	<script type="text/javascript" src="/javascripts/angular-ui-router.min.js"></script>
 	<script type="text/javascript" src="/javascripts/jquery.min.js"></script>
 	<script type="text/javascript" src="/javascripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="/javascripts/script.js"></script>
 
 
+</head>
+<body ng-app="expressmusic" class="container">
+	<nav class="navbar navbar-default">
+		<a class="navbar-brand" href="/">Express Music Player</a>
+	</nav>
+	<div ui-view></div>
 </body>
 </html>

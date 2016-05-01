@@ -6,7 +6,7 @@
 		"3": ["toyGuitar", "TOTEM", "Transviolet", "Trevor Jackson", "Tunji Ige", "Tunji Ige", "Tuskha", "Trance Farmers", "Travis Garland", "Trill Sammy", "Tru Def"],
 		"4": ["Tish Hyman", "Tony Tillman", "Tor Miller", "Tor Miller", "Tory Lanez", "Tory Lanez", "TK N CASH", "Tomad", "Tommy Genesis", "Tory Lanez", "TK N CASH", "Tony Ramey", "Tina B", "Total Abuse"],
 		"5": ["TEEN", "THEY.", "THEY.", "Tdot Illdude", "Tennis System", "Terra Lightfoot", "Tesha", "Thought Tempo", "Throwing Shade", "Tiffany Parker", "Tiga", "Tijuana Panthers", "Tijuana Panthers", "Tim Olstad", "Taylor Bennett", "Tel Cairo", "The Trews", "A Tibbz", "Talisco", "Tanya Stephens", "Team Next", "The Tontons", "Tamarron", "Tameca Jones"],
-		"6": ["TEEN", "Tarmac", "Tef Poe", "Th3 Saga", "THEY.", "Tickle Torture", "Thee Oh Sees", "Think No Think"],
+		"6": ["Tarmac", "Tef Poe", "Th3 Saga", "THEY.", "Tickle Torture", "Thee Oh Sees", "Think No Think"],
 		"7": ["TOWKIO", "Transviolet", "Transviolet", "Trapper Schoepp", "Tripletrain", "Trub", "Truett", "Turnover", "Turnstile", "Twin River", "Two9 Jace", "Two9 Jace", "Tyler Thomas", "traumahelikopter", "Trae Tha Truth", "Troller", "Typical Girls"],
 		"8": ["Tracy Bryant", "Transviolet", "Trash", "Troye Sivan", "Truth", "Twin Limb", "Twista", "Troye Sivan", "Trae Tha Truth", "Trae Tha Truth aka The Texas Ambassador", "Trill Sammy", "Trill Sammy & Dice Soho", "Tree G"],
 		"9": ["Taso", "TastyTreat", "Teddy Thompson and Kelly Jones", "Telegram", "Texiyama", "Thaddeus Anna Greene", "Tides of Man", "Thelma and The Sleaze", "Tim Nable", "tdoyle", "Taco", "Tacocat", "Tanlines", "Tele Novella", "Tha Real Chino", "Team Next"]
@@ -18,7 +18,7 @@
 		"3": [0.21, 0.27, 0.27, 0.27, 0.27, 0.27, 0.27, 0.44, 0.44, 0.82, 0.84],
 		"4": [0.42, 0.42, 0.42, 0.42, 0.42, 0.42, 0.48, 0.68, 0.68, 0.68, 0.72, 0.87, 0.89, 1.02],
 		"5": [0.27, 0.27, 0.27, 0.27, 0.27, 0.27, 0.27, 0.27, 0.27, 0.27, 0.27, 0.27, 0.27, 0.27, 0.31, 0.31, 0.31, 0.81, 0.81, 0.81, 0.86, 0.86, 1.15, 1.15],
-		"6": [0.13, 0.13, 0.13, 0.13, 0.17, 0.17, 0.41, 0.88],
+		"6": [0.13, 0.13, 0.13, 0.17, 0.17, 0.41, 0.88],
 		"7": [0.18, 0.18, 0.18, 0.18, 0.18, 0.18, 0.18, 0.18, 0.18, 0.18, 0.18, 0.18, 0.18, 0.18, 0.82, 0.82, 0.82],
 		"8": [0.39, 0.39, 0.39, 0.39, 0.39, 0.39, 0.39, 0.46, 0.62, 0.62, 0.62, 0.62, 0.67],
 		"9": [0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.36, 0.36, 0.36, 0.85, 0.85, 0.85, 0.85, 0.85, 0.87]
