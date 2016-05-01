@@ -1,20 +1,20 @@
 CLUSTER 1 
-	 ['toyGuitar', 'Trill Sammy'] 
+	 ['Tan Fr�o El Verano', 'Tangerine', 'Talisco', 'T.S.O.', 'Tish Hyman', 'T2 The Ghetto Hippie', 'Tank Washington', 'Tinnarose', 'Total Unicorn'] 
 CLUSTER 2 
-	 ['TK N CASH', 'Tory Lanez', 'Tommy Genesis', 'Tomad', 'Troye Sivan', 'Twista', 'Twin Limb', 'Truth', 'Troye Sivan', 'Trash', 'Transviolet', 'Tracy Bryant', 'Total Abuse', 'Tree G', 'Trill Sammy & Dice Soho', 'Trill Sammy', 'Trae Tha Truth aka The Texas Ambassador', 'Trae Tha Truth'] 
+	 ['Tiffany Alvord', 'The Todd Barry Podcast (Podcast Recording)', 'Thao & The Get Down Stay Down', 'Telmary', 'Tate Kobang', 'Tijuana Panthers', 'Tigertown', 'Tigers Are Bad For Horses', "Thi'sl", 'Them Vibes', 'Them Guns', 'Thelma and The Sleaze', 'Tempo Plastico', 'Tempalay', 'Tekno', 'Teklife & The Era', 'Tdot Illdude', 'T-Bone', 'Taylor McFerrin', 'Taylor Bennett'] 
 CLUSTER 3 
-	 ['Tyler Thomas', 'Two9 Jace', 'Two9 Jace', 'Twin River', 'Turnstile', 'Turnover', 'Truett', 'Trub', 'Tripletrain', 'traumahelikopter', 'Trapper Schoepp', 'Transviolet', 'Transviolet', 'TOWKIO', 'Typical Girls', 'Troller', 'Trae Tha Truth'] 
-CLUSTER 4 
-	 ['Tan Fr�o El Verano', 'Tangerine', 'Talisco', 'T.S.O.', 'Th3 Saga', 'TEEN', 'Tef Poe', 'Tarmac', 'Tiffany Alvord', 'The Todd Barry Podcast (Podcast Recording)', 'Thao & The Get Down Stay Down', 'Telmary', 'Tate Kobang', 'Tickle Torture', 'THEY.', 'Thee Oh Sees', 'Tijuana Panthers', 'Tigertown', 'Tigers Are Bad For Horses', "Thi'sl", 'Them Vibes', 'Them Guns', 'Thelma and The Sleaze', 'Tempo Plastico', 'Tempalay', 'Tekno', 'Teklife & The Era', 'Tdot Illdude', 'T-Bone', 'Taylor McFerrin', 'Taylor Bennett', 'T2 The Ghetto Hippie', 'Tank Washington', 'Think No Think'] 
-CLUSTER 5 
-	 ['TK N CASH', 'Tory Lanez', 'Tory Lanez', 'Tor Miller', 'Tor Miller', 'Tony Tillman', 'Tish Hyman', 'Tish Hyman', 'Tina B', 'Tony Ramey', 'Tinnarose', 'Total Unicorn'] 
-CLUSTER 6 
 	 ['TK N CASH', 'Two9 Jace', 'Trevor Sensor', 'Tracy Bryant', 'Tomar and the FCs', 'Tres Bourbonnais', 'Trae Tha Truth', 'Tum Tum', 'Trinity Dawson'] 
-CLUSTER 7 
-	 ['Tunji Ige', 'Transviolet', 'TOTEM', 'Tunji Ige', 'Tru Def'] 
-CLUSTER 8 
-	 ['Taco', 'Tanlines', 'Tacocat', 'Telegram', 'Teddy Thompson and Kelly Jones', 'TastyTreat', 'Taso', 'Tides of Man', 'Thaddeus Anna Greene', 'Texiyama', 'Tim Nable', 'Thelma and The Sleaze', 'tdoyle', 'Tha Real Chino', 'Tele Novella', 'Team Next'] 
-CLUSTER 9 
+CLUSTER 4 
+	 ['Tunji Ige', 'Transviolet', 'TOTEM', 'Tunji Ige', 'toyGuitar', 'Travis Garland', 'Trance Farmers', 'Tuskha', 'Trevor Jackson', 'Tru Def', 'Trill Sammy'] 
+CLUSTER 5 
+	 ['TK N CASH', 'Tory Lanez', 'Tory Lanez', 'Tor Miller', 'Tor Miller', 'Tony Tillman', 'Tish Hyman', 'TK N CASH', 'Tory Lanez', 'Tommy Genesis', 'Tomad', 'Tina B', 'Tony Ramey', 'Total Abuse'] 
+CLUSTER 6 
 	 ['Talisco', 'Tanya Stephens', 'A Tibbz', 'Tim Olstad', 'Tiga', 'Tiffany Parker', 'Tesha', 'The Trews', 'Tel Cairo', 'Taylor Bennett', 'Tijuana Panthers', 'Tijuana Panthers', 'Throwing Shade', 'Thought Tempo', 'THEY.', 'THEY.', 'Terra Lightfoot', 'Tennis System', 'TEEN', 'Tdot Illdude', 'Tameca Jones', 'Tamarron', 'The Tontons', 'Team Next'] 
+CLUSTER 7 
+	 ['Th3 Saga', 'TEEN', 'Tef Poe', 'Tarmac', 'Tickle Torture', 'THEY.', 'Thee Oh Sees', 'Think No Think'] 
+CLUSTER 8 
+	 ['Tyler Thomas', 'Two9 Jace', 'Two9 Jace', 'Twin River', 'Turnstile', 'Turnover', 'Truett', 'Trub', 'Tripletrain', 'traumahelikopter', 'Trapper Schoepp', 'Transviolet', 'Transviolet', 'TOWKIO', 'Typical Girls', 'Troller', 'Trae Tha Truth'] 
+CLUSTER 9 
+	 ['Troye Sivan', 'Twista', 'Twin Limb', 'Truth', 'Troye Sivan', 'Trash', 'Transviolet', 'Tracy Bryant', 'Tree G', 'Trill Sammy & Dice Soho', 'Trill Sammy', 'Trae Tha Truth aka The Texas Ambassador', 'Trae Tha Truth'] 
 CLUSTER 10 
-	 ['Travis Garland', 'Trance Farmers', 'Tuskha', 'Trevor Jackson'] 
+	 ['Taco', 'Tanlines', 'Tacocat', 'Telegram', 'Teddy Thompson and Kelly Jones', 'TastyTreat', 'Taso', 'Tides of Man', 'Thaddeus Anna Greene', 'Texiyama', 'Tim Nable', 'Thelma and The Sleaze', 'tdoyle', 'Tha Real Chino', 'Tele Novella', 'Team Next'] 

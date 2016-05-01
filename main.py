@@ -1,6 +1,7 @@
 #!/usr/bin/python
 import random
 import math
+import json
 
 # A method that finds the distance between two collection (eachExample & centroids)
 
@@ -120,23 +121,14 @@ while iterator <= math.pow(numOfExamples, 2):
     initialDistance = distanceList(exampleList, centroids)
 printClusters(checkCluster)
 
-# print(checkCluster[3][4]) # band name cluster
-
-# print(cluster_items) # coordinates value cluster
-
-
 float_cluster = []
-# print(checkCluster)
-# print(len(checkCluster))
-# print(cluster_items)
-# print(len(cluster_items))
+artists = checkCluster
 
 
 distance = {}
 
 m = 0
 
-sorted_distance = {}
 for i in range(0, len(cluster_items)):
     item = (cluster_items.get(i))
     distance[i] = []
@@ -147,17 +139,19 @@ for i in range(0, len(cluster_items)):
             temp.append(val)
         distance[i].append(distanceBetween(temp, final_centroids[i]))
 
+sorted_artist = {}
+sorted_distance = {}
 
-
-
-#unsorted
-
-
-
-#sorted
 for i in range(0, len(distance)):
-    val = distance[i]
-    sorted_distance[i] = sorted(range(len(val)), key=lambda k: val[k])
-    print(sorted_distance[i]) # index of sorted
+    dist = distance[i]
+    art = artists[i]
+    dist, art = zip(*sorted(zip(dist, art)))
+    sorted_distance[i] = dist
+    sorted_artist[i] = art
 
+# print(sorted_artist) #gives cluster of sorted artist according to closeness to centroid of their cluster
+# print(sorted_distance) # gives distance of sortest artist
 
+print(json.dumps(sorted_artist))
+print("\n\n\n")
+print(json.dumps(sorted_distance))
