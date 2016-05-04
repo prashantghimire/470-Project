@@ -1,5 +1,10 @@
 <ul class="list-group">
   <li ng-repeat="cluster in clusters track by $index" class="list-group-item">
   	<a href="#/more/{{$index}}">{{cluster[0]}}</a>
+	<br/>
+	<audio controls>
+		<source src="{{songs[$index][0]}}" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
   </li>
 </ul>
