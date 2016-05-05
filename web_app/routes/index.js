@@ -19,6 +19,10 @@ router.get('/more', function(req, res, next) {
   res.render('more', { title: 'Express Music' });
 });
 
+router.get('/suggestions', function(req, res, next) {
+  res.render('suggestions', { title: 'Express Music' });
+});
+
 // API rendering
 
 router.get('/results', function(req, res, next) {

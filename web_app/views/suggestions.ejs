@@ -1,0 +1,21 @@
+<ul class="list-group">
+	<div ng-repeat="cluster in clusters track by $index" ng-show="{{choiceArray[$index]}}">
+		<li class="list-group-item">
+		<div>
+			{{cluster[1]}}
+			<br/>
+			<audio src="{{songs[$index][1]}}" controls="controls" controls preload="none">
+				Your browser does not support the audio element.
+			</audio>
+		</div>
+		<div>
+			{{cluster[2]}}
+			<br/>
+			<audio src="{{songs[$index][2]}}" controls="controls" controls preload="none">
+				Your browser does not support the audio element.
+			</audio>
+		</div>
+		</li>
+	</div>
+</ul>
+<a href="#/app">Back</a>

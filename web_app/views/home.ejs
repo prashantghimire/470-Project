@@ -1,10 +1,13 @@
-<ul class="list-group">
-  <li ng-repeat="cluster in clusters track by $index" class="list-group-item">
-  	<a href="#/more/{{$index}}">{{cluster[0]}}</a>
-	<br/>
-	<audio controls>
-		<source src="{{songs[$index][0]}}" type="audio/mpeg">
-		Your browser does not support the audio element.
-	</audio>
-  </li>
-</ul>
+<div>
+	<ul class="list-group">
+		<li ng-repeat="cluster in clusters track by $index" class="list-group-item">
+		<a href="#/more/{{$index}}">{{cluster[0]}}</a>
+		<br/>
+		<audio src="{{songs[$index][0]}}" controls="controls" controls preload="none">
+			Your browser does not support the audio element.
+		</audio>
+		<input type="checkbox" ng-model="choiceArray[$index]" value="{{$index}}" />
+		</li>
+	</ul>
+	<a href="#/suggestions">Show&nbspSuggestions</a>
+</div>
