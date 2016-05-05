@@ -28,15 +28,15 @@ router.get('/suggestions', function(req, res, next) {
 
 router.get('/results', function(req, res, next) {
 	var file = JSON.parse(fs.readFileSync('routes/results.json', 'utf8'));
-	var fallback = "../songs/Tor Miller_Carter and Cash.mp3";
-	for (var index in file.songs){
-		var cluster = file.songs[index];
-		for (var j in cluster){
-			if(cluster[j].indexOf(".mp3") < 0){
-				cluster[j] = fallback;
-			}
-		}
-	}
+	// var fallback = "../songs/Tor Miller_Carter and Cash.mp3";
+	// for (var index in file.songs){
+		// var cluster = file.songs[index];
+		// for (var j in cluster){
+			// if(cluster[j].indexOf(".mp3") < 0){
+				// cluster[j] = fallback;
+			// }
+		// }
+	// }
 	res.send(file);
 });
 

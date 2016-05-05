@@ -1,15 +1,16 @@
 <ul class="list-group">
 	<div ng-repeat="cluster in clusters track by $index" ng-show="{{choiceArray[$index]}}">
+	<div ng-show="(songs[$index][1] != '../songs/!!!!!') || (songs[$index][2] != '../songs/!!!!!')">
 		<li class="list-group-item">
-		<div>
+		<div ng-show="songs[$index][1] != '../songs/!!!!!'">
 			<a class="label label-info">{{cluster[1]}}</a>
 			<br/><br>
 			<audio src="{{songs[$index][1]}}" controls="controls" controls preload="none">
 				Your browser does not support the audio element.
-			</audio>
+			</audio>            
 		</div>
-            <br><br>
-		<div>
+		<div ng-show="songs[$index][2] != '../songs/!!!!!'">
+		<br><br>
 			<a class="label label-info">{{cluster[2]}}</a>
 			<br/><br>
 			<audio src="{{songs[$index][2]}}" controls="controls" controls preload="none">
@@ -17,6 +18,7 @@
 			</audio>
 		</div>
 		</li>
+	</div>
 	</div>
 </ul>
 <a class="btn btn-danger" href="#/app">Back</a>
