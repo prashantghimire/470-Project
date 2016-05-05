@@ -1,7 +1,7 @@
 a, a:hover, a:focus{
   color: #00B7FF;
   text-decoration: none !important;
-
+  text-transform: capitalize;
 }
 
 li{
@@ -23,3 +23,12 @@ a.btn{
 body{
     text-align: center;
 }
+
+.green{
+    color: green;
+}
+
+.gray{
+    color: #9b9b9b;
+}
+

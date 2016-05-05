@@ -1,10 +1,10 @@
 <ul class="list-group">
-<li><a class="btn btn-danger" href="/">BACK</a></li>
-  <li ng-repeat="artist in similarArtists track by $index" class="list-group-item">
-  	{{artist}}
-	<br/>
-	<audio src="{{songs[$index]}}" controls="controls" controls preload="none">
-				Your browser does not support the audio element.
-			</audio>
-  </li>
+    <li><a class="btn btn-danger" href="/">BACK</a></li>
+    <li ng-repeat="artist in similarArtists track by $index" class="list-group-item">
+        {{artist}}
+        <br/>
+        <audio src="{{songs[$index]}}" controls="controls" controls preload="none">
+            Your browser does not support the audio element.
+        </audio>
+    </li>
 </ul>

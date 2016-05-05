@@ -1,4 +1,4 @@
-<div style="text-align: center">
+<div style="text-align: center" ng-init="makefalse()">
 	<ul class="list-group">
 		<li ng-repeat="cluster in clusters track by $index" class="list-group-item">
 		<a class="label label-default" href="#/more/{{$index}}">{{cluster[0]}}</a>
@@ -6,9 +6,10 @@
 		<audio src="{{songs[$index][0]}}" controls="controls" controls preload="none">
 			Your browser does not support the audio element.
 		</audio>
-		<input style="display: none" id="input_{{$index}}" type="checkbox" ng-model="choiceArray[$index]" value="{{$index}}" />
-        <i ng-click="update(choiceArray[$index], $index, $event)" class="glyphicon glyphicon-thumbs-up"></i>
-		</li>
+		<input hidden type="checkbox" ng-model="choiceArray[$index]" value="{{$index}}" />
+            <i ng-click="run($index)" ng-show="choiceArray[$index]" class="glyphicon glyphicon-thumbs-up green"></i>
+            <i ng-click="run($index)" ng-hide="choiceArray[$index]" class="glyphicon glyphicon-thumbs-up gray"></i>
+        </li>
 	</ul>
 	<div style="text-align: center">
         <a class="btn btn-lg btn-success" href="#/suggestions">Show&nbspSuggestions</a>

@@ -6,12 +6,12 @@ angular.module('expressmusic',['ui.router'])
             .state('app',{
                 url: '/app',
                 templateUrl: 'home',
-                controller: 'HomeCtrl'
+                controller: 'HomeCtrl',
             })
             .state('suggestions',{
                 url: '/suggestions',
                 templateUrl: 'suggestions',
-                controller: 'HomeCtrl'
+                controller: 'HomeCtrl',
             })
             .state('more',{
                 url: '/more/:id',
@@ -20,10 +20,9 @@ angular.module('expressmusic',['ui.router'])
             })
     })
     .controller('HomeCtrl', function($scope, $http){
-
-        $scope.update = function (val, index, event) {
-            $(event.target).toggleClass("glyphicon-thumbs-up, glyphicon-thumbs-down");
-            $("#input_"+index).trigger('click');
+        
+        $scope.run = function (index) {
+            $scope.choiceArray[index] = !$scope.choiceArray[index];
         }
         $http.get('results').then(function(res){
             $scope.clusters = res.data.artist;
