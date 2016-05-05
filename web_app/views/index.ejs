@@ -15,9 +15,14 @@
 
 </head>
 <body ng-app="expressmusic" ng-controller="CheckCtrl" class="container">
-	<nav class="navbar navbar-default">
-		<a class="navbar-brand" href="/">Express Music Player</a>
-	</nav>
-	<div ui-view></div>
+
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3 col-sm-12 col-lg-6 col-lg-offset-3 col-xs-12">
+            <nav class="navbar navbar-inverse">
+                <a class="navbar-brand" href="/">Express Music Player</a>
+            </nav>
+            <div ui-view></div>
+        </div>
+    </div>
 </body>
 </html>
